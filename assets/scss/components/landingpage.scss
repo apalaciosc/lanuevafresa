@@ -1,0 +1,415 @@
+//menu
+.header.shrink.header-light {
+  background: #000 !important;
+}
+
+header .navbar-brand .d-flex:before,
+header .navbar-nav-brand .d-flex:before {
+  border: none !important;
+}
+
+.icon-bars {
+  color: $red !important;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+// reproductor
+.play_list {
+  background: #cc1313;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.list_scroll {
+  height: auto;
+  max-height: 500px;
+  position: relative;
+  overflow: hidden;
+}
+
+.player_wrapper {
+  position: relative;
+}
+
+a.playlist_expander {
+  width: 63px;
+  margin-right: 15px;
+  height: 67px;
+  float: right;
+  display: inline-block;
+  line-height: 67px;
+  text-align: center;
+  background: #343434;
+  color: #fff;
+}
+
+.boxed_in a.playlist_expander {
+  margin-right: 0;
+}
+
+.rock_player {
+  display: block;
+  width: 100%;
+  z-index: 9999;
+}
+
+.pre_sticky.rock_player {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.sticky_player {
+  background: #000000;
+  background: rgba(0, 0, 0, 0.75);
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 9999 !important;
+  position: relative;
+}
+
+.sticky-wrapper.is-sticky {
+  z-index: 99999;
+}
+
+.sticky_player.nosticky {
+  position: relative !important;
+  top: 0 !important;
+}
+
+.jp-title {
+  font-size: 18px;
+  color: #fff;
+  display: inline-block !important;
+  width: 226px;
+  height: 24px;
+  overflow: hidden;
+  padding-left: 15px;
+}
+
+.jp-volume li a {
+  height: 7px;
+  width: 5px;
+  display: block;
+  background: #343434;
+}
+
+.jp-volume li.active a {
+  background: #fff;
+}
+
+.jp-volume li:nth-child(2) a {
+  height: 12px;
+}
+
+.jp-volume li:nth-child(3) a {
+  height: 17px;
+}
+
+.jp-volume li:nth-child(4) a {
+  height: 22px;
+}
+
+.jp-volume li:nth-child(5) a {
+  height: 25px;
+}
+
+.jp-volume {
+  display: inline-block;
+}
+
+.jp-volume li {
+  display: inline-block;
+  margin-right: 0px;
+}
+
+.rock_controls {
+  display: inline-block;
+  width: 85px;
+}
+
+.rock_controls div {
+  width: 63px;
+  height: 67px;
+  background: #d41010;
+  line-height: 67px;
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
+}
+
+.audio-progress {
+  position: relative;
+  background: #343434;
+  height: 13px;
+  width: 580px;
+  display: inline-block;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.audio-progress .jp-seek-bar {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 13px;
+  width: 100%;
+}
+
+.audio-progress .audio-play-bar {
+  position: absolute;
+  left: 0;
+  top: 0;
+  min-height: 4px;
+  height: 100%;
+  background: #fff;
+}
+
+.audio-timer {
+  display: inline-block;
+  width: 50px;
+  padding-left: 10px;
+  font-size: 12px;
+  color: #cc1313;
+}
+
+.jp-play,
+.jp-pause {
+  display: none;
+}
+
+// integrantes
+.integrantes {
+  background: $negro-medio;
+  &-titulo {
+    font-size: 3rem !important;
+  }
+  &-subtitulo {
+    color: $red;
+  }
+  &-content {
+    &:hover .integrantes-info {
+      -webkit-animation-name: fadeOutUpBig;
+      animation-name: fadeOutUpBig;
+    }
+    &:hover .integrantes-info__hover {
+      display: block;
+      transition-delay: 2s;
+    }
+  }
+  &-info {
+    font-family: $oswald;
+    background: $negro-medio-5;
+    top: -150px;
+    position: relative;
+    & h4,
+    span {
+      font-family: $oswald !important;
+      font-weight: $light;
+      line-height: 2rem !important;
+    }
+    & h4 {
+      font-size: 2rem !important;
+    }
+    & span {
+      font-size: 1.5rem !important;
+      color: $red !important;
+      font-weight: $regular;
+    }
+  }
+  &-info__hover {
+    top: -130px;
+    position: relative;
+    background: $red;
+    height: 35px;
+    margin: 0;
+    display: none;
+    & h4 {
+      padding-top: 5px !important;
+      font-family: $oswald !important;
+      font-weight: $light;
+    }
+  }
+}
+
+.carousel-custom.carousel-base-color .flickity-prev-next-button {
+  background: $red !important;
+}
+
+//presentaciones
+table {
+  font-family: $oswald;
+}
+
+th,
+td {
+  text-align: center;
+  padding: 1.5rem !important;
+}
+
+thead {
+  color: $red;
+}
+
+.table-dark {
+  background-color: $negro-medio;
+}
+
+.table-dark.table-hover tbody tr:hover {
+  background-color: rgba(204, 19, 19, .2) !important;
+}
+
+.presentaciones {
+  &-button {
+    background: yellow;
+    color: #000 !important;
+    cursor: pointer;
+    padding: 5px 25px;
+    &:hover {
+      color: $bg-fondo !important;
+      transition-delay: .5s;
+    }
+  }
+}
+
+section.py-big {
+  padding: 50px 0;
+}
+
+section.section-divider-y {
+  padding: 100px 0 20px 0;
+}
+
+//musicales
+.musicales {
+  padding: 0px 0 20px 0 !important;
+}
+
+figure {
+  img::before {
+    content: '';
+    background: red;
+  }
+  & a {
+    display: block;
+    overflow: hidden;
+    & img:hover {
+      background: #000 !important;
+    }
+  }
+  figcaption {
+    background: #fff;
+    & h6 {
+      font-family: $oswald;
+      padding-top: 4px;
+      font-size: 1.2rem;
+      &:hover {
+        color: $red;
+      }
+    }
+  }
+}
+
+.figure-musical {
+  position: relative;
+  left: 0;
+  top: -100%;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.75);
+}
+
+// redes solicales
+.channels_list {
+  & li a {
+    display: block;
+    width: 100%;
+    background: #fff;
+    padding: 15px 30px;
+    position: relative;
+    text-align: right;
+    color: #222222;
+    overflow: hidden;
+    &:hover {
+      background: #cc1313;
+      color: #fff;
+    }
+  }
+  & li {
+    list-style: none;
+  }
+  & a {
+    text-decoration: none;
+    margin: .7rem;
+  }
+}
+
+.link-icons {
+  display: flex !important;
+  justify-content: space-between;
+}
+
+.icon-redes {
+  font-size: 1.2rem;
+} // contactos
+.contacto {
+  background-color: $negro-medio;
+  padding-top: 20px !important;
+  &-img {
+    width: 100% !important;
+  }
+  &-label {
+    color: $red;
+  }
+  &-button {
+    background-color: $red;
+    color: #fff;
+    &:hover {
+      border: 1px solid $red;
+      background-color: #fff;
+      color: $red;
+    }
+  }
+}
+
+//modal
+.modal {
+  &-content {
+    background-color: $negro-medio;
+    color: $red;
+  }
+  &-titulo {
+    font-family: $lato;
+    margin: 15px 0;
+  }
+  &-numero {
+    margin: 20px 0;
+    & label {
+      padding-left: 0 !important;
+    }
+  }
+  &-terminos {
+    margin: 15px 0;
+  }
+  &-icon {
+    margin-left: 10px;
+  }
+  &-footer {
+    padding: 16px 0 0 0 !important;
+  }
+  &-btn {
+    background-color: $red;
+    color: #fff !important;
+    margin-right: 0 !important;
+    padding: 13px 25px !important;
+    &:hover {
+      background-color: #fff;
+      color: $red !important;
+      border: 1px solid $red !important;
+    }
+  }
+}

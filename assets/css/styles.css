@@ -3,29 +3,32 @@
 */
 
 /** BG - Static */
+
 #hero-bg-static {
-  background-image: url("../images/bg-hero-static.jpg");
+  background-image: url("../img/media/tengoquecolgar.jpg");
 }
 
 /** BG - Parallax */
-#hero-bg-parallax > .bg-img-parallax {
+
+#hero-bg-parallax>.bg-img-parallax {
   background: url("../images/bg-hero-parallax.jpg");
 }
 
 /** BG - Slideshow */
-#hero-bg-slideshow .slides > .bg-img-cover:nth-child(1) {
+
+#hero-bg-slideshow .slides>.bg-img-cover:nth-child(1) {
   background: url("../images/bg-hero-slideshow-1.jpg");
 }
 
-#hero-bg-slideshow .slides > .bg-img-cover:nth-child(2) {
+#hero-bg-slideshow .slides>.bg-img-cover:nth-child(2) {
   background: url("../images/bg-hero-slideshow-2.jpg");
 }
 
-#hero-bg-slideshow .slides > .bg-img-cover:nth-child(3) {
+#hero-bg-slideshow .slides>.bg-img-cover:nth-child(3) {
   background: url("../images/bg-hero-slideshow-3.jpg");
 }
 
-#hero-bg-slideshow .slides > .bg-img-cover.flex-active-slide {
+#hero-bg-slideshow .slides>.bg-img-cover.flex-active-slide {
   animation: zoomout 5s;
 }
 
@@ -41,7 +44,8 @@
   z-index: 10;
 }
 
-.hero-text h2, .hero-text h3 {
+.hero-text h2,
+.hero-text h3 {
   transform: rotate(-3deg);
   -webkit-transform: rotate(-3deg);
   -ms-transform: rotate(-3deg);
@@ -67,12 +71,10 @@
   0% {
     transform: scale(1.3);
   }
-
   100% {
     transform: scale(1);
   }
 }
-
 
 /*
 * Section - Wedding Event
@@ -82,7 +84,6 @@
   background-image: url("../images/bg-wedding-event.jpg");
 }
 
-
 /*
 * Section - Proposed
 */
@@ -90,7 +91,6 @@
 #proposed {
   background: url("../images/bg-proposed.jpg");
 }
-
 
 /*
 * Section - Wedding Gifts
@@ -100,13 +100,16 @@
   background-image: url("../images/bg-wedding-gifts.jpg");
 }
 
-
 /*
 * Footer
 */
 
+/* .musicales {
+  background-image: url("../img/BG/Nuevafresa_banner1.jpg");
+} */
+
 footer {
-  background-image: url("../images/bg-footer.jpg");
+  background-image: url("../img/gallery/Cambio_mi_Corazon.jpg");
 }
 
 footer .border-top {

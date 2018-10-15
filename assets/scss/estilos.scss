@@ -1,0 +1,22 @@
+//hacer todos los import  para compilar
+
+// config
+@import "config";
+
+// estilo de layouts
+
+// estilos de base
+@import "base/base"; //es bueno poner tu base despues del normalize , por q por cascatada tu codigo le gane y no haya conflictos
+
+// estilo de modules
+@import "modules/buttons";
+@import "modules/cards";
+@import "modules/menu";
+@import "modules/tabs";
+@import "modules/icons";
+
+//estilo componentes
+@import "components/landingpage";
+
+//estados
+@import "state/media";
