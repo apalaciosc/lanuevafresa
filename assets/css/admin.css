@@ -1,0 +1,19 @@
+.header {
+  padding: 0;
+}
+
+.logo {
+  width: 100px;
+}
+.pasado{
+  margin-top:30px !important;
+}
+/* content */
+
+.content {
+  background-color: #fff;
+}
+
+.dataTables_wrapper{
+  width: 100%;
+}
