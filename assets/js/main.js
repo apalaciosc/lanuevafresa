@@ -341,7 +341,7 @@ jQuery(function($){
 		},playlist_items ,
 			{playlistOptions: {autoPlay: false}},
 		{
-			swfPath: "assets/jPlayer/Jplayer.swf",
+			swfPath: "assets/jPlayer/jplayer.swf",
 			supplied: "mp3",
 		});
 		$('.play_it').click(function(e){

@@ -8,25 +8,6 @@
   background-image: url("../img/media/tengoquecolgar.jpg");
 }
 
-/** BG - Parallax */
-
-#hero-bg-parallax>.bg-img-parallax {
-  background: url("../images/bg-hero-parallax.jpg");
-}
-
-/** BG - Slideshow */
-
-#hero-bg-slideshow .slides>.bg-img-cover:nth-child(1) {
-  background: url("../images/bg-hero-slideshow-1.jpg");
-}
-
-#hero-bg-slideshow .slides>.bg-img-cover:nth-child(2) {
-  background: url("../images/bg-hero-slideshow-2.jpg");
-}
-
-#hero-bg-slideshow .slides>.bg-img-cover:nth-child(3) {
-  background: url("../images/bg-hero-slideshow-3.jpg");
-}
 
 #hero-bg-slideshow .slides>.bg-img-cover.flex-active-slide {
   animation: zoomout 5s;
@@ -76,37 +57,6 @@
   }
 }
 
-/*
-* Section - Wedding Event
-*/
-
-#wedding-event {
-  background-image: url("../images/bg-wedding-event.jpg");
-}
-
-/*
-* Section - Proposed
-*/
-
-#proposed {
-  background: url("../images/bg-proposed.jpg");
-}
-
-/*
-* Section - Wedding Gifts
-*/
-
-#wedding-gifts {
-  background-image: url("../images/bg-wedding-gifts.jpg");
-}
-
-/*
-* Footer
-*/
-
-/* .musicales {
-  background-image: url("../img/BG/Nuevafresa_banner1.jpg");
-} */
 
 footer {
   background-image: url("../img/gallery/Cambio_mi_Corazon.jpg");

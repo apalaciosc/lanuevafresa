@@ -7,8 +7,40 @@
 //     color: $blanco !important;
 //   }
 // }
+@media (max-width:768px) {
+  .portada {
+    top: 90px;
+  }
+  section.section-divider-y {
+    padding: 50px 0 0px 0;
+  }
+  .integrantes-titulo {
+    font-size: 2.3rem !important;
+  }
+  .channels_list {
+    padding-left: 0px;
+  }
+  .presentaciones {
+    &-button {
+      font-size: .8rem;
+    }
+  }
+}
+
 @media (max-width:400px) {
-  .integrantes-titulo{
+  section.section-divider-y {
+    padding: 50px 0 0px 0;
+  }
+  .integrantes-titulo {
     font-size: 1.8rem !important;
+  }
+  #jplayer_jukebox_container {
+    width: 80%;
+  }
+  .channels_list {
+    padding-left: 15px;
+    & li {
+      padding-left: 0 !important;
+    }
   }
 }
