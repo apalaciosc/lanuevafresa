@@ -1,3 +1,49 @@
+/* LOGIN - START */
+.container-login{
+  background: url(../img/banner/bg-login.png);
+  background-size: cover;
+  height: 100vh;
+}
+.col-login {
+}
+
+.form-login {
+  margin: auto;
+  border: 1px solid #cc1313;
+  padding: 20px 10px 15px 25px;
+  border-radius: 10px;
+  background: rgba(41, 41, 41, .5);
+}
+
+.input-group-text {
+  background: #cc1313;
+}
+
+.input-group-text i {
+  color: #fff;
+}
+
+.form-control-login:focus {
+  border-color: #cc1313;
+  box-shadow: 0 0 0 0.2rem rgba(204, 19, 19, 0.25);
+}
+
+.btn-login {
+  border: 1px solid #cc1313;
+  background: #fff;
+  color: #cc1313;
+}
+
+.btn-login:hover {
+  background: #cc1313;
+  color: #fff;
+  border: 1px solid #cc1313;
+}
+
+/* LOGIN - END */
+
+/* ADMIN - START */
+
 .header {
   padding: 0;
 }
@@ -5,15 +51,17 @@
 .logo {
   width: 100px;
 }
-.pasado{
-  margin-top:30px !important;
+
+.pasado {
+  margin-top: 30px !important;
 }
+
 /* content */
 
 .content {
   background-color: #fff;
 }
 
-.dataTables_wrapper{
+.dataTables_wrapper {
   width: 100%;
 }
