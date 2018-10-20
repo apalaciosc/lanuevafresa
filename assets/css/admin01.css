@@ -1,10 +1,9 @@
 /* LOGIN - START */
-.container-login{
+
+.container-login {
   background: url(../img/banner/bg-login.png);
   background-size: cover;
   height: 100vh;
-}
-.col-login {
 }
 
 .form-login {
@@ -46,10 +45,27 @@
 
 .header {
   padding: 0;
+  padding-top: 60px;
 }
 
 .logo {
   width: 100px;
+}
+
+.navbar-admin {
+  background: #292929 !important;
+}
+
+.btn-admin {
+  background: #fff;
+  color: #cc1313;
+  border: 1px solid #cc1313;
+}
+
+.btn-admin:hover {
+  background: #cc1313;
+  color: #fff;
+  border-color: #cc1313;
 }
 
 .pasado {
@@ -64,4 +80,28 @@
 
 .dataTables_wrapper {
   width: 100%;
+}
+
+/* table */
+
+.buscar {
+  border-radius: 10px;
+}
+
+.buscar:focus {
+  border-color: #cc1313 !important;
+  border-radius: 10px;
+  box-shadow: 0 0 0 0.2rem rgba(204, 19, 19, 0.25) !important;
+}
+
+/* modal */
+
+.modal-editar {
+  background: #28a745;
+  color: #fff;
+}
+
+.modal-eliminar {
+  background: #cc1313;
+  color: #fff;
 }
